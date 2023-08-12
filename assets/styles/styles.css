@@ -1,0 +1,66 @@
+:root {
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+  --font: "Red Hat Display", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  background-color: var(--pale-blue);
+  font-family: var(--font);
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  margin-bottom: 3rem;
+}
+
+.container {
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+p {
+  font-size: 16px;
+}
+
+.card {
+  position: relative;
+  background-color: var(--very-pale-blue);
+  border-radius: 15px;
+  text-align: start;
+  max-width: 25em;
+  padding: 1.5em;
+  cursor: default;
+  z-index: 100;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem 0;
+  background-color: var(--pale-blue);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  /* color: var(--soft-blue); */
+}
+
+.attribution a {
+  /* color: hsl(215, 51%, 80%); */
+}
