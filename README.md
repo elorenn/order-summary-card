@@ -6,8 +6,6 @@ Checkout out the live site [here](https://elorenn.github.io/NFT-preview-card-com
 
 ![active state](design/active-states.jpg)
 
-![mobile design](design/mobile-design.jpg)
-
 ### Built with
 
 - Semantic HTML5 markup
