@@ -149,11 +149,11 @@ section.plan img {
   background-color: hsl(245, 75%, 65%);
 }
 
-figure {
+.img-wrapper {
   margin: 0;
 }
 
-figure > img {
+.img-wrapper > img {
   max-width: 100%;
   display: block;
 }
