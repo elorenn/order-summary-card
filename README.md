@@ -1,6 +1,6 @@
-# Order summary card solution
+# Order Summary UI Card 
 
-Checkout out the live site [here](https://elorenn.github.io/NFT-preview-card-component/).
+Checkout out the live site [here](https://elorenn.github.io/order-summary-card/).
 
 ![ui card for an order summary](design/desktop-design.jpg)
 
